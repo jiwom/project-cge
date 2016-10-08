@@ -1,7 +1,7 @@
 //https://github.com/jiwom/project-cge.git
 $(document).ready(function(){
 	var kulay = ["green", "pink", "white", "red", "yellow", "blue"];
-	var pera = $('#pera').text();
+	var pera = parseInt($('#pera').text());
     var taya = 5;
     var winningColors = [];
 

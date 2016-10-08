@@ -40,3 +40,7 @@
     color: inherit;
     cursor: pointer;
 }
+
+body {
+    margin-left: 15px;
+}

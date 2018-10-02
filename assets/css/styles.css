@@ -12,11 +12,13 @@
 
 #dice-container {
 	height: auto;
-	background-color: black;
+	/*background-color: black;*/
+    background: #101010;
 	padding: 10px;
 }
 #dice-pull {
 	font-size: 75px;
+    border-radius: 0;
 }
 .dice {
 	margin: 10px;
@@ -25,23 +27,41 @@
     background-color: red;
     border-style: solid;
     border-width: 5px;
-    border-radius: 2vw;
-    border-color: gray;
+    /*border-radius: 2vw;*/
+    border-radius: 2rem;
+    /*border-color: gray;*/
+    border: none;
 }
 .bet-box {
+
+    /*border-radius: 2rem;*/
 	height:  300px;
 	line-height:  300px;
-	border-color: gray;
+	/*border-color: gray;*/
+    border-color: #101010;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 10px;
 	text-align: center;
 	font-size: 35px;
 	font-family: inherit;
     font-weight: 500;
     color: inherit;
     cursor: pointer;
+    /*border: none;*/
 }
 
 body {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+}
+
+.tayaan-container {
+    background:  #101010;
+    width: 100%;
+    /*padding-right: 15px;*/
+}
+
+* {box-sizing:  border-box; }
+
+.main-wrap {
+    
 }

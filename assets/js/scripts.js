@@ -1,6 +1,6 @@
 //https://github.com/jiwom/project-cge.git
 $(document).ready(function(){
-	var kulay = ["green", "pink", "white", "red", "yellow", "blue"];
+	var kulay = ['#b2f068', '#ed97a4', '#efefef', '#eb6f86', '#efde75', '#4573e7'];
 	var pera = parseInt($('#pera').text());
     var taya = 5;
     var winningColors = [];
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		for(var i = 0; i< 3; i++){
 			var randomColor = kulay[Math.floor(Math.random() * kulay.length)];
 			$('#'+'dice-'+i).css('background-color',randomColor);
-			$('#'+'dice-'+i).data('color', randomColor);
+			$('#'+'dice-'+i).data('color', randomColor.replace('#', ''));
 		}
 	};
 

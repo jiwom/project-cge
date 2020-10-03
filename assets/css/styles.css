@@ -60,6 +60,36 @@ body {
     /*padding-right: 15px;*/
 }
 
+.dice-green {
+    background:  #006442;
+    /*padding-right: 15px;*/
+}
+
+.dice-red {
+    background:  #8F1D21;
+    /*padding-right: 15px;*/
+}
+
+.dice-yellow {
+    background:  #F7CA18;
+    /*padding-right: 15px;*/
+}
+
+.dice-blue{
+    background:  #003171;
+    /*padding-right: 15px;*/
+}
+
+.dice-pink{
+    background:  #ffb3cc;
+    /*padding-right: 15px;*/
+}
+
+.dice-white{
+    background:  #ffffff;
+    /*padding-right: 15px;*/
+}
+
 * {box-sizing:  border-box; }
 
 .main-wrap {

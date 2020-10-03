@@ -68,27 +68,44 @@ body {
 
 .dice-red {
     background:  #8F1D21;
-    /*padding-right: 15px;*/
 }
 
 .dice-yellow {
     background:  #F7CA18;
-    /*padding-right: 15px;*/
 }
 
 .dice-blue{
     background:  #003171;
-    /*padding-right: 15px;*/
 }
 
 .dice-pink{
     background:  #ffb3cc;
-    /*padding-right: 15px;*/
 }
 
 .dice-white{
     background:  #ffffff;
-    /*padding-right: 15px;*/
+}
+
+.label-color{
+    background:  #ffffff;
+}
+
+.bet-box2 {
+
+    /*border-radius: 2rem;*/
+    height:  100px;
+    line-height:  100px;
+    /*border-color: gray;*/
+    border-color: #101010;
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+    cursor: pointer;
+    /*border: none;*/
 }
 
 * {box-sizing:  border-box; }

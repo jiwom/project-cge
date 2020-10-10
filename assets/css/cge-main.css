@@ -33,9 +33,10 @@ body {
   height: 200px;
   border: none;
   position: relative;
+  z-index: 9999 !important;
 }
 
-.tayaan-wra .col-3 {
+.tayaan-wrap .col-3 {
   position: relative;
 }
 
@@ -45,6 +46,54 @@ body {
 
 .footer-contents {
   text-align: center;
+}
+
+.dice-yellow {
+  background: #fccf45;
+  background: -moz-linear-gradient(180deg, #fccf45 0%, #fcb045 100%);
+  background: -webkit-linear-gradient(180deg, #fccf45 0%, #fcb045 100%);
+  background: linear-gradient(180deg, #fccf45 0%, #fcb045 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fccf45",endColorstr="#fcb045",GradientType=1);
+}
+
+.dice-red {
+  background: #fc4577;
+  background: -moz-linear-gradient(180deg, #fc4577 0%, #fc4545 100%);
+  background: -webkit-linear-gradient(180deg, #fc4577 0%, #fc4545 100%);
+  background: linear-gradient(180deg, #fc4577 0%, #fc4545 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fc4577",endColorstr="#fc4545",GradientType=1);
+}
+
+.dice-green {
+  background: #34da47;
+  background: -moz-linear-gradient(180deg, #34da47 0%, #388e20 100%);
+  background: -webkit-linear-gradient(180deg, #34da47 0%, #388e20 100%);
+  background: linear-gradient(180deg, #34da47 0%, #388e20 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34da47",endColorstr="#388e20",GradientType=1);
+}
+
+.dice-blue {
+  background: #4782ed;
+  background: -moz-linear-gradient(180deg, #4782ed 0%, #223bc2 100%);
+  background: -webkit-linear-gradient(180deg, #4782ed 0%, #223bc2 100%);
+  background: linear-gradient(180deg, #4782ed 0%, #223bc2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4782ed",endColorstr="#223bc2",GradientType=1);
+}
+
+.dice-pink {
+  background: #f03def;
+  background: -moz-linear-gradient(180deg, #f03def 0%, #c718a3 100%);
+  background: -webkit-linear-gradient(180deg, #f03def 0%, #c718a3 100%);
+  background: linear-gradient(180deg, #f03def 0%, #c718a3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f03def",endColorstr="#c718a3",GradientType=1);
+}
+
+.dice-white {
+  background: white;
+  background: -moz-linear-gradient(180deg, white 0%, #ececec 100%);
+  background: -webkit-linear-gradient(180deg, white 0%, #ececec 100%);
+  background: linear-gradient(180deg, white 0%, #ececec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ececec",GradientType=1);
 }
 
 /*# sourceMappingURL=cge-main.css.map */

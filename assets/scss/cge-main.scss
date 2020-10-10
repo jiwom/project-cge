@@ -43,7 +43,7 @@ body {
 	height: 200px;
 	border: none;
 	position: relative;
-	// z-index: 2 !important;
+	z-index: 9999 !important;
 
 
 	// &:before {
@@ -56,16 +56,14 @@ body {
 	//     left: 13%;
 	//     bottom: 0;
 	//     width: 75%;
-	//     z-index: -2;
+	//     z-index: -2 !important;
 	// }
 }
 
-.tayaan-wra {
+.tayaan-wrap {
 	.col-3 {
 		position: relative;
 	}
-
-
 }
 
 
@@ -81,4 +79,30 @@ body {
 
 .footer-contents {
 	text-align: center;
+}
+
+
+// Colors Override
+.dice-yellow {
+	@include clr-yellow;
+}
+
+.dice-red {
+	@include clr-red;
+}
+
+.dice-green {
+	@include clr-green;
+}
+
+.dice-blue {
+	@include clr-blue;
+}
+
+.dice-pink {
+	@include clr-pink;
+}
+
+.dice-white {
+	@include clr-white;
 }

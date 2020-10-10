@@ -4,23 +4,47 @@
 }
 
 body {
-  background: #ECF0F5;
+  background: #f9f9f9;
 }
 
 .header-wrap {
   text-align: center;
 }
+.header-wrap h1 {
+  color: #1B8366 !important;
+}
 .header-wrap h1 small {
+  color: #000 !important;
   display: block;
   font-size: 30% !important;
 }
 
+.tayaan-container {
+  background: #f9f9f9;
+}
+
+.dice {
+  height: 200px;
+  border-radius: 6px;
+}
+
 .bet-box {
-  border-radius: 60px;
+  border-radius: 6px;
+  height: 200px;
+  border: none;
+  position: relative;
+}
+
+.tayaan-wra .col-3 {
+  position: relative;
 }
 
 .dice-control-wrap img {
   width: 100px;
+}
+
+.footer-contents {
+  text-align: center;
 }
 
 /*# sourceMappingURL=cge-main.css.map */

@@ -12,52 +12,74 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script src="assets/js/scripts.js"></script>
 
+
 	
 </head>
 <body>
 	<div class="main-wrap">
-	<section class="header-wrap pt-2">
-		<h1><small> BALANCE: </small> <span id="pera">1000</span></h1>
-	</section>
-
-	<section class="dice-container-wrap">
+		<section class="header-wrap pt-2">
+			<h1><small> BALANCE: </small> <span id="pera"> 1000</span></h1>
+		</section>
+	
+		<section class="dice-container-wrap">
 		<div id="dice-container" class=" row-centered">
 			<div id="dice-0" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
 			<div id="dice-1" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
 			<div id="dice-2" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
 		</div>
-	</section>
-
-
-	<section class="dice-control-wrap">
+		</section>
+	
+	
+		<section class="dice-control-wrap">
 		<div id="dice-control" class="">
 			<button id="dice-pull" class="btn btn-info btn-block" type="submit">PULL!</button>
 		</div>
-	</section>
+		</section>
+	
+		<section class="tayaan-wrap">
+		<div class="tayaan-container">
+			<div class="container">
+				<div class="row justify-content-center align-items-center d-flex mt-4">
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-green" class="justify-content-center align-items-center d-flex bet-box dice-green">0</div>
+					</div>
 
-	<section class="tayaan-wrap">
-	<div class="tayaan-container">
-		<div class="container">
-		
-		<div id="box-green" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-green">0
-		</div>
-		<div id="box-pink" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-red">0</div>
-		<div id="box-white" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-yellow">0</div>
-		<div class="clearfix"></div>
-		
-		<div class="clearfix"></div>
-		<div id="box-red" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-blue">0</div>
-		<div id="box-yellow" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-pink">0</div>
-		<div id="box-blue" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-white">0</div>
-		
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-pink" class="justify-content-center align-items-center d-flex bet-box dice-red">0</div>
+					</div>
 
-		</div>
-    </div>
-    </section>
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-white" class="justify-content-center align-items-center d-flex bet-box dice-yellow">0</div>
+					</div>
+					
+					
+					
+				</div>
 
-    <div class="">
-        <div class="col-lg-4 col-sm-12 col-md-12 col-xs-12 col-centered"> <h1><strong>COLOR GAME</strong> v1.1.0 by jiwom</h1></div>
-    </div>
+				<div class="row justify-content-center align-items-center d-flex mt-4">
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-red" class="justify-content-center align-items-center d-flex bet-box dice-blue">0</div>
+					</div>
+
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-yellow" class="justify-content-center align-items-center d-flex bet-box dice-pink">0</div>
+					</div>
+
+
+					<div class="col-3 mb-2 mt-2">
+						<div id="box-blue" class="justify-content-center align-items-center d-flex bet-box dice-white">0</div>
+					</div>
+
+					
+			    </div>
+
+			</div>
+	    </div>
+    	</section>
+	
+		<footer class="footer-contents pt-2">
+		    <h6><strong>COLOR GAME</strong> v1.1.0 by 	jiwom</h6>
+		</footer>
     </div>
 </body>
 </html>

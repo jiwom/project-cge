@@ -6,7 +6,8 @@
 * {	box-sizing: border-box; }
 
 body {
-	background: #ECF0F5;
+	// background: #ECF0F5;
+	background:  #f9f9f9;
 }
 
 
@@ -17,7 +18,9 @@ body {
 
 	h1 {
 		// font-size: 4rem;
+		color: #1B8366 !important;
 		small {
+			color: #000 !important;
 			display: block;
 			font-size: 30% !important;
 		}
@@ -25,9 +28,47 @@ body {
 }
 
 
-.bet-box {
-	border-radius: 60px;
+.tayaan-container {
+	// background: #ECF0F5;
+	background: #f9f9f9;
 }
+
+.dice {
+	height: 200px;
+	border-radius: 6px;
+}
+
+.bet-box {
+	border-radius: 6px;
+	height: 200px;
+	border: none;
+	position: relative;
+	// z-index: 2 !important;
+
+
+	// &:before {
+	// 	position: absolute;
+	//     content: "";
+	//     width: 100%;
+	//     height: 100%;
+	//     box-shadow: 0 2px 60px 0 #717171;
+	//     height: 50px;
+	//     left: 13%;
+	//     bottom: 0;
+	//     width: 75%;
+	//     z-index: -2;
+	// }
+}
+
+.tayaan-wra {
+	.col-3 {
+		position: relative;
+	}
+
+
+}
+
+
 
 
 .dice-control-wrap {
@@ -35,4 +76,9 @@ body {
 		width: 100px;
 
 	}
+}
+
+
+.footer-contents {
+	text-align: center;
 }

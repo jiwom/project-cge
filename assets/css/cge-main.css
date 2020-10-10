@@ -7,4 +7,20 @@ body {
   background: #ECF0F5;
 }
 
+.header-wrap {
+  text-align: center;
+}
+.header-wrap h1 small {
+  display: block;
+  font-size: 30% !important;
+}
+
+.bet-box {
+  border-radius: 60px;
+}
+
+.dice-control-wrap img {
+  width: 100px;
+}
+
 /*# sourceMappingURL=cge-main.css.map */

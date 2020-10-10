@@ -12,3 +12,27 @@ body {
 
 
 
+.header-wrap {
+	text-align: center;
+
+	h1 {
+		// font-size: 4rem;
+		small {
+			display: block;
+			font-size: 30% !important;
+		}
+	}
+}
+
+
+.bet-box {
+	border-radius: 60px;
+}
+
+
+.dice-control-wrap {
+	img {
+		width: 100px;
+
+	}
+}

@@ -36,7 +36,7 @@
 
     /*border-radius: 2rem;*/
 	height:  350px;
-	/*line-height:  300px;*/
+	line-height:  300px;
 	/*border-color: gray;*/
     border-color: #101010;
 	border-style: solid;
@@ -71,19 +71,19 @@ body {
 }
 
 .dice-yellow {
-    background:  yellow;
+    background:  #F7CA18;
 }
 
 .dice-blue{
-    background:  blue;
+    background:  #003171;
 }
 
 .dice-pink{
-    background:  pink;
+    background:  #ffb3cc;
 }
 
 .dice-white{
-    background:  white;
+    background:  #ffffff;
 }
 
 .label-color{

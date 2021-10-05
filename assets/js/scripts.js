@@ -1,22 +1,14 @@
 //https://github.com/jiwom/project-cge.git
 $(document).ready(function(){
 	var kulay = ["green", "pink", "white", "red", "yellow", "blue"];
-	var pera = 0;
+	var pera = parseInt($('#pera').text());
     var taya = 5;
     var winningColors = [];
-
-    $('#pera').text(pera);
-    $('#initialMoneyMdl').modal('show');
 
     changeColor();
     
     $('#dice-pull').click(function(){
     	rollDice();
-    });
-
-    $('.setMoney').click(function () {
-        $('#pera').text($('#initial-money-txt').val());
-        $('#initialMoneyMdl').modal('hide');
     });
 
     $('.bet-box').click(function(){

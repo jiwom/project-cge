@@ -55,7 +55,7 @@ body {
 }
 
 .tayaan-container {
-    background:  #101010;
+    background: saddlebrown;
     width: 100%;
     /*padding-right: 15px;*/
 }
@@ -67,27 +67,27 @@ body {
 }
 
 .dice-red {
-    background:  #8F1D21;
+    background: #8F1D21;
 }
 
 .dice-yellow {
-    background:  #F7CA18;
+    background: #F7CA18;
 }
 
 .dice-blue{
-    background:  #003171;
+    background: #003171;
 }
 
 .dice-pink{
-    background:  #ffb3cc;
+    background: #ffb3cc;
 }
 
 .dice-white{
-    background:  #ffffff;
+    background: #ffffff;
 }
 
 .label-color{
-    background:  #ffffff;
+    background: #ffffff;
 }
 
 .bet-box2 {
